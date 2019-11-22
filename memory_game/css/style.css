@@ -3,7 +3,7 @@ body {
 	margin: 0;
 }
 header {
-	background-color: #F15B31;
+	background-color: gold;
 	color: #FFFFFF;
 	padding: 30px 20px;
 }
@@ -15,7 +15,7 @@ h1 {
 	margin: 0;
 }
 nav {
-	background-color: #00A6B3;
+	background-color: black;
 	padding: 20px 0;
 }
 a {
@@ -50,10 +50,14 @@ p {
 img{
 	margin: 40px 8px;
 }
+img:active {
+	transform: scale(1.02);
+	transition: transform .05s;
+}
 footer {
 	text-transform: uppercase;
 	padding: 0 20px;
-	background: #0D2C40;
+	background: gold;
 	color: white;
 	font-size: 14px;
 	letter-spacing: .08em;
@@ -74,6 +78,6 @@ footer {
 	font-size: 0;
 }
 .name {
-	color: #F15B31;
+	color: black;
 	font-weight: 700;
 }
